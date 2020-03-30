@@ -129,7 +129,7 @@ ALTER TABLE ONLY public.friends_info ALTER COLUMN id SET DEFAULT nextval('public
 COPY public.friends_favorites (id, name, favorite_color, lucky_number, favorite_quote) FROM stdin;
 1	O.V.	aquamarine	31	"Life is what happens when you're busy making other plans." -John Lennon
 2	Rosetta	orange	1	"The future belongs to those who believe in the beauty of their dreams." -Eleanor Roosevelt
-3	Carl	orange	40	"Whoever is happy will make others happy too." -Anne Frank
+3	Jim	orange	40	"Whoever is happy will make others happy too." -Anne Frank
 4	Iggy	orange	6	"You will face many defeats in life, but never let yourself be defeated." -Maya Angelou
 5	Irma	yellow	2	"You have brains in your head. You have feet in your shoes. You can steer yourself any direction you choose." -Dr. Seuss
 6	Iris	turquoise	12	"Never let the fear of striking out keep you from playing the game." -Babe Ruth
@@ -162,7 +162,7 @@ COPY public.friends_favorites (id, name, favorite_color, lucky_number, favorite_
 COPY public.friends_info (id, name, gender, birthplace, birthdate) FROM stdin;
 1	O.V.	M	Tennessee	1939-10-09
 2	Rosetta	F	Arkansas	1915-03-20
-3	Carl	M	Tennessee	1932-04-09
+3	Jim	M	New Mexico	1940-08-13
 4	Iggy	M	Michigan	1947-04-21
 5	Irma	F	Louisiana	1941-02-18
 6	Iris	F	Arkansas	1961-01-05
